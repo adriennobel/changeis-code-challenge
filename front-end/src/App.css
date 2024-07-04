@@ -1,0 +1,72 @@
+
+.page-header {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.5);
+  background-image: url("/src/assets/cristian-castillo-73pyV0JJOmE-unsplash.jpg");
+  background-blend-mode: multiply;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-h1 {
+  font-size: 200%;
+  text-align: center;
+}
+
+.users-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); 
+  gap: 16px;
+  padding: 16px;
+}
+
+.user-card-component {
+  background-color: var(--just-white);
+  border: 1px solid var(--light-grey);
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.user-card-component:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.user-card-head {
+  font-size: 300%;
+}
+
+.card-placeholder-head {
+  padding: 0 16px;
+  background-color: var(--accent-color-2);
+  color: var(--accent-color-1);
+  border-radius: 8px 8px 0 0;
+}
+
+.user-card-head img {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 2;
+  border-radius: 8px 8px 0 0;
+  display: block;
+}
+
+.user-card-body {
+  padding: 16px;
+}
+
+.user-card-body h4 {
+  font-size: 125%;
+}
+
+.sinlge-line-text {
+  overflow: hidden;
+  overflow-wrap: break-word;
+  display: flex;
+  align-items: center;
+}

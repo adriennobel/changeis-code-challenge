@@ -1,10 +1,11 @@
 import './App.css'
+import UsersPage from './pages/UsersPage'
 
-function App() {
+const App = () => {
 
   return (
     <>
-      MAIN
+      <UsersPage />
     </>
   )
 }
