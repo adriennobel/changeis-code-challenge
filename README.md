@@ -23,12 +23,13 @@ A step-by-step guide to get the development environment running.
 
   ```bash
   git clone https://github.com/adriennobel/changeis-code-challenge.git
-  cd your-repository
+  cd changeis-code-challenge
   ```
 
 2. **Install Dependencies**
 
   ```bash
+  cd front-end
   npm install
   ```
 
